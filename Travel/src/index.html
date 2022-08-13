@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -7,21 +8,138 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header__logo logo">
-			<img src="./assets/icons/logo.svg" alt="logo" class="logo__img">
-			<div class="logo__title">Travel Portal</div>
+		<div class="header__container container">
+			<div class="header__logo logo">
+				<img src="../src/assets/icons/logo.svg" alt="logo" class="logo__img">
+				<div class="logo__title">Travel Portal</div>
+			</div>
+	
+			<nav class="header__nav nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#" class="nav__link">How It Works</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Plan Your Trip</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Travel Stories</a></li>
+				</ul>
+				<button class="nav__btn btn">Login</button>
+			</nav>
 		</div>
-
-		<nav class="header__nav">
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#" class="nav__link">How It Works</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">Plan Your Trip</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">Travel Stories</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">Login</a></li>
-			</ul>
-		</nav>
 	</header>
+
+	<section class="explore">
+		<div class="explore__container container">
+			<h1 class="explore__title main-title">Explore the beauty of the World</h1>
+			<h2 class="explore__subtitle">Receive personalized recommendations for countries, hotels, activities and more</h2>
+			<div class="explore__search-box">
+				<input type="text" class="search-box__input"> <!-- What would you like to do? -->
+				<search-box class="btn">Start Planning</search-box>
+			</div>
+		</div>
+	</section>
+
+	<section class="steps">
+		<div class="steps__container container">
+			<h2 class="steps__title title">3 STEPS TO THE PERFECT TRIP</h2>
+			<div class="steps__items">
+				<div class="steps__item">
+					<img src="../src/assets/icons/second-screen/1.svg" alt="bicycle" class="steps__img">
+					<div class="steps__descr">Tell us what you want to do</div>
+				</div>
+				<div class="steps__item">
+					<img src="../src/assets/icons/second-screen/2.svg" alt="calendar" class="steps__img">
+					<div class="steps__descr">Share us preferable dates</div>
+				</div>
+				<div class="steps__item">
+					<img src="../src/assets/icons/second-screen/3.svg" alt="airplane" class="steps__img">
+					<div class="steps__descr">We will give you recommendations</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="destinations">
+		<div class="container__destinations container">
+			<h2 class="destinations__title title"></h2>
+			<div class="destinations__slider slider">
+				<div class="slider__images">
+					<div class="slider__block">
+						<img src="../src/assets/bg/3rd-screen/spain.jpg" alt="spain" class="slider__img">
+						<div class="slider__descr">spain</div>
+					</div>
+					<div class="slider__block">
+						<img src="../src/assets/bg/3rd-screen/japan.jpg" alt="japan" class="slider__img">
+						<div class="slider__descr">japan</div>
+					</div>
+					<div class="slider__block">
+						<img src="../src/assets/bg/3rd-screen/usa.jpg" alt="usa" class="slider__img">
+						<div class="slider__descr">usa</div>
+					</div>
+				</div>
+				<div class="slider__controllers">
+					<div class="slider__ctrl"></div>
+					<div class="slider__ctrl"></div>
+					<div class="slider__ctrl"></div>
+				</div>
+			</div>
+			<button class="destinations__btn btn"></button>
+		</div>
+	</section>
+
+	<section class="stories">
+		<div class="stories__container container">
+			<div class="stories__wrapper">
+				<div class="stories__block">
+					<img src="../src/assets/bg/last-screen/1.jpg" alt="Thailand" class="stories__img">
+					<div class="stories__text">
+						<h3 class="stories__title">10 Photos of Attractive Thailand</h3>
+						<div class="stories__descr">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More
+						</div>
+					</div>
+				</div>
+						<div class="stories__block">
+					<img src="../src/assets/bg/last-screen/2.jpg" alt="Utah" class="stories__img">
+					<div class="stories__text">
+						<h3 class="stories__title">Canyonlands National Park, Utah</h3>
+						<div class="stories__descr">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More
+						</div>
+					</div>
+				</div>
+						<div class="stories__block">
+					<img src="../src/assets/bg/last-screen/3.jpg" alt="Mountains" class="stories__img">
+					<div class="stories__text">
+						<h3 class="stories__title">I left my heart in the Mountains!</h3>
+						<div class="stories__descr">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More
+						</div>
+					</div>
+				</div>
+						<div class="stories__block">
+					<img src="../src/assets/bg/last-screen/4.jpg" alt="journey" class="stories__img">
+					<div class="stories__text">
+						<h3 class="stories__title">The Longest journey in my life!</h3>
+						<div class="stories__descr">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More
+						</div>
+					</div>
+				</div>
+				<button class="stories__btn btn">See More</button>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__rights">All Rights Reserved © Travel Portal</div>
+			<div class="footer__socials socials">
+				<div class="socials__inst"></div>
+				<div class="socials__youtube"></div>
+				<div class="socials__twitter"></div>
+			</div>
+		</div>
+	</footer>
 	
 </body>
 </html>
